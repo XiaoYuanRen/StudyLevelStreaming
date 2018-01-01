@@ -1,0 +1,754 @@
+﻿Log file open, 05/29/17 06:21:33
+LogInit:Display: Running engine for game: StudyLevelStreaming
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(681896214) SRandInit(681896214).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.109573
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+OCULUS: Info: [CAPI] LibOVR module is located at C:\Program Files\Oculus\Support\oculus-runtime\LibOVRRT64_1.dll
+OCULUS: Debug: Connected to the server running version (prod = 1).1.14.0(build = 378771) feature version = 0. Client runs version (prod = 1).1.14.0(build = 378771) feature version = 0
+LogHMD: GearVR: Emulating GearVR using Oculus Rift!
+LogInit: Build: ++UE4+Release-4.16-CL-3452394
+LogInit: Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): May 22 2017 17:47:00
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.05.28-22.21.34:819][  0]LogInit: Selected Device Profile: [Windows]
+[2017.05.28-22.21.34:819][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.05.28-22.21.34:899][  0]LogInit: Computer: DESKTOP-U58NJUJ
+[2017.05.28-22.21.34:899][  0]LogInit: User: 辰
+[2017.05.28-22.21.34:899][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.05.28-22.21.34:899][  0]LogInit: High frequency timer resolution =3.914060 MHz
+[2017.05.28-22.21.34:899][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.05.28-22.21.34:899][  0]LogMemory: Platform Memory Stats for Windows
+[2017.05.28-22.21.34:899][  0]LogMemory: Process Physical Memory: 278.31 MB used, 278.31 MB peak
+[2017.05.28-22.21.34:899][  0]LogMemory: Process Virtual Memory: 263.87 MB used, 263.87 MB peak
+[2017.05.28-22.21.34:899][  0]LogMemory: Physical Memory: 3028.57 MB used,  13258.21 MB free, 16286.78 MB total
+[2017.05.28-22.21.34:899][  0]LogMemory: Virtual Memory: 688.20 MB used,  13258.21 MB free, 134217728.00 MB total
+[2017.05.28-22.21.35:188][  0]LogInit: Using OS detected language (en-US).
+[2017.05.28-22.21.35:188][  0]LogInit: Using OS detected locale (en-US).
+[2017.05.28-22.21.35:221][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.05.28-22.21.37:226][  0]LogD3D11RHI: D3D11 adapters:
+[2017.05.28-22.21.37:663][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2017.05.28-22.21.37:663][  0]LogD3D11RHI:       4059/0/8143 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.05.28-22.21.37:664][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.05.28-22.21.37:664][  0]LogD3D11RHI:       0/0/8143 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.05.28-22.21.37:664][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.05.28-22.21.37:670][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.05.28-22.21.37:670][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2017.05.28-22.21.37:670][  0]LogWindows: EnumDisplayDevices:
+[2017.05.28-22.21.37:670][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2017.05.28-22.21.37:670][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2017.05.28-22.21.37:670][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2017.05.28-22.21.37:671][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2017.05.28-22.21.37:671][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.05.28-22.21.37:671][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2017.05.28-22.21.37:671][  0]LogD3D11RHI:   Driver Version: 382.33 (internal:22.21.13.8233, unified:382.33)
+[2017.05.28-22.21.37:671][  0]LogD3D11RHI:      Driver Date: 5-17-2017
+[2017.05.28-22.21.37:671][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.05.28-22.21.38:101][  0]LogD3D11RHI: Async texture creation enabled
+[2017.05.28-22.21.38:158][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.05.28-22.21.38:213][  0]LogShaderCompilers: Guid format shader working directory is 5 characters bigger than the processId version (D:/UnrealProject/StudyLevelStreaming/Intermediate/Shaders/WorkingDirectory/13040/).
+[2017.05.28-22.21.38:213][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/辰/AppData/Local/Temp/UnrealShaderWorkingDir/68CF14AC46B3B5800C3E46B300511C98/'.
+[2017.05.28-22.21.38:214][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.05.28-22.21.39:992][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.05.28-22.21.40:028][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.05.28-22.21.40:067][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.05.28-22.21.40:103][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.05.28-22.21.40:141][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.05.28-22.21.40:177][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.05.28-22.21.40:212][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.05.28-22.21.40:262][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.05.28-22.21.40:308][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.05.28-22.21.40:344][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.05.28-22.21.40:378][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.05.28-22.21.40:412][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.05.28-22.21.40:478][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.05.28-22.21.40:543][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.05.28-22.21.40:577][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.05.28-22.21.40:645][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.05.28-22.21.40:645][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.05.28-22.21.40:672][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.05.28-22.21.40:768][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.05.28-22.21.40:808][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.05.28-22.21.40:845][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.05.28-22.21.40:879][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.05.28-22.21.40:929][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.05.28-22.21.41:008][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.05.28-22.21.41:008][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.05.28-22.21.41:872][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.05.28-22.21.42:524][  0]LogDerivedDataCache: Loaded boot cache 0.65s 90MB C:/Users/辰/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.05.28-22.21.42:524][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/辰/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.05.28-22.21.42:524][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/UnrealProject/StudyLevelStreaming/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.05.28-22.21.42:524][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.05.28-22.21.42:524][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/UnrealProject/StudyLevelStreaming/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.05.28-22.21.42:524][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.05.28-22.21.42:590][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.05.28-22.21.42:603][  0]LogDerivedDataCache: Using Local data cache path C:/Users/辰/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.05.28-22.21.42:625][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.05.28-22.21.42:629][  0]LogSlate: Using Freetype 2.6.0
+[2017.05.28-22.21.42:647][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.05.28-22.21.42:647][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.05.28-22.21.45:022][  0]LogInit: Selected Device Profile: [Windows]
+[2017.05.28-22.21.45:236][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.05.28-22.21.45:482][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.05.28-22.21.45:549][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.05.28-22.21.45:598][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.05.28-22.21.45:598][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.05.28-22.21.45:598][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.05.28-22.21.46:898][  0]LogNetVersion: StudyLevelStreaming , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 624655890)
+[2017.05.28-22.21.46:998][  0]LogAssetRegistry: FAssetRegistry took 0.0291 seconds to start up
+[2017.05.28-22.21.47:040][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.024464 seconds
+[2017.05.28-22.21.47:044][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.05.28-22.21.47:044][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2017.05.28-22.21.47:044][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.05.28-22.21.47:093][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.05.28-22.21.51:439][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.05.28-22.21.51:472][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.05.28-22.21.52:108][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.05.28-22.21.52:730][  0]SourceControl: Info Source control is disabled
+[2017.05.28-22.21.52:731][  0]SourceControl: Info Source control is disabled
+[2017.05.28-22.21.52:767][  0]SourceControl: Info Source control is disabled
+[2017.05.28-22.21.52:821][  0]SourceControl: Info Source control is disabled
+[2017.05.28-22.21.53:452][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.05.28-22.21.53:995][  0]LogEngine: Initializing Engine...
+[2017.05.28-22.21.53:998][  0]LogHMD: Oculus plugin initialized. Version: 4.16.0-3452394+++UE4+Release-4.16, LibOVR: 1.14.0, SDK: 1.12.0, built May 22 2017, 17:54:40
+[2017.05.28-22.21.54:285][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.05.28-22.21.54:286][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.05.28-22.21.54:394][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.05.28-22.21.54:415][  0]LogInit: XAudio2 using '扬声器 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.28-22.21.54:487][  0]LogInit: FAudioDevice initialized.
+[2017.05.28-22.21.54:541][  0]LogDerivedDataCache: Saved boot cache 0.05s 90MB C:/Users/辰/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.05.28-22.21.54:553][  0]LogInit: Texture streaming: Enabled
+[2017.05.28-22.21.54:686][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.05.28-22.21.54:910][  0]LogInit: Transaction tracking system initialized
+[2017.05.28-22.21.55:167][  0]BlueprintLog: New page: Editor Load
+[2017.05.28-22.21.55:994][  0]LocalizationService: Info Localization service is disabled
+[2017.05.28-22.21.56:691][  0]LogConsoleResponse:Display: 
+[2017.05.28-22.21.56:975][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealProject/StudyLevelStreaming/Content/' took 0.01s
+[2017.05.28-22.21.56:975][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.05.28-22.21.56:975][  0]LogCook:Display: Mobile HDR setting 1
+[2017.05.28-22.21.57:795][  0]SourceControl: Info Source control is disabled
+[2017.05.28-22.21.57:797][  0]Cmd: MAP LOAD FILE="D:/UnrealProject/StudyLevelStreaming/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.05.28-22.21.57:798][  0]LightingResults: New page: Lighting Build
+[2017.05.28-22.21.57:831][  0]MapCheck: New page: Map Check
+[2017.05.28-22.21.57:831][  0]LightingResults: New page: Lighting Build
+[2017.05.28-22.21.58:768][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.05.28-22.21.59:073][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.05.28-22.21.59:087][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.05.28-22.21.59:121][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 33.471ms to complete.
+[2017.05.28-22.21.59:121][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 1.325
+[2017.05.28-22.21.59:196][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.05.28-22.21.59:293][  0]LogCollectionManager: Loaded 0 collections in 0.001228 seconds
+[2017.05.28-22.21.59:368][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealProject/StudyLevelStreaming/Saved/Collections/' took 0.01s
+[2017.05.28-22.21.59:368][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealProject/StudyLevelStreaming/Content/Developers/辰/Collections/' took 0.01s
+[2017.05.28-22.21.59:368][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealProject/StudyLevelStreaming/Content/Collections/' took 0.01s
+[2017.05.28-22.21.59:368][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000004 seconds
+[2017.05.28-22.21.59:376][  0]LogContentBrowser: Native class hierarchy populated in 0.0069 seconds. Added 2329 classes and 491 folders.
+[2017.05.28-22.21.59:428][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.05.28-22.21.59:678][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.05.28-22.21.59:713][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.05.28-22.21.59:775][  0]LogContentBrowser: Native class hierarchy updated for 'WorldBrowser' in 0.0004 seconds. Added 1 classes and 3 folders.
+[2017.05.28-22.21.59:926][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.05.28-22.21.59:937][  0]LogSlate: Took 0.004001 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.05.28-22.21.59:942][  0]LogSlate: Took 0.003260 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.05.28-22.21.59:950][  0]LogSlate: Took 0.004136 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.05.28-22.22.00:062][  0]LogRenderer: Reallocating scene render targets to support 1248x612 NumSamples 1 (Frame:1).
+[2017.05.28-22.22.00:190][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.05.28-22.22.00:246][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.05.28-22.22.00:246][  0]LogLoad: (Engine Initialization) Total time: 30.14 seconds
+[2017.05.28-22.22.00:246][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.16 seconds
+[2017.05.28-22.22.00:246][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.05.28-22.22.00:246][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.05.28-22.22.00:257][  0]LogOcInput: OculusInput pre-init called
+[2017.05.28-22.22.00:266][  0]LogOcInput: OculusInput is initialized. Init status 0. Runtime version: 1.14.0
+[2017.05.28-22.22.00:266][  0]LogHMD: Starting GearVRController plugin
+[2017.05.28-22.22.00:278][  0]LogAssetRegistry: Asset discovery search completed in 13.3026 seconds
+[2017.05.28-22.22.00:279][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000003 seconds (found 0 objects)
+[2017.05.28-22.22.00:279][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000016 seconds (updated 0 objects)
+[2017.05.28-22.22.00:284][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.05.28-22.22.00:329][  0]LogSlate: Took 0.003566 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.05.28-22.27.24:022][879]LogSlate: Took 0.000111 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.05.28-22.27.24:037][879]Cmd: MAP LOAD FILE="D:/UnrealProject/StudyLevelStreaming/Content/ThirdPersonBP/Maps/LS_Blue.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.05.28-22.27.24:037][879]LightingResults: New page: Lighting Build
+[2017.05.28-22.27.24:037][879]LoadErrors: New page: Loading map: LS_Blue.umap
+[2017.05.28-22.27.24:040][879]MapCheck: New page: Map Check
+[2017.05.28-22.27.24:040][879]LightingResults: New page: Lighting Build
+[2017.05.28-22.27.24:051][879]LogAIModule: Creating AISystem for world LS_Blue
+[2017.05.28-22.27.24:092][879]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.05.28-22.27.24:135][879]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.05.28-22.27.24:171][879]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 36.057ms to complete.
+[2017.05.28-22.27.24:172][879]LogFileHelpers: Loading map 'LS_Blue' took 0.136
+[2017.05.28-22.27.24:889][957]LogAIModule: Creating AISystem for world LS_Custom
+[2017.05.28-22.27.24:909][957]Cmd: MAP LOAD FILE="D:/UnrealProject/StudyLevelStreaming/Content/ThirdPersonBP/Maps/LS_Custom.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.05.28-22.27.24:910][957]LightingResults: New page: Lighting Build
+[2017.05.28-22.27.24:910][957]LoadErrors: New page: Loading map: LS_Custom.umap
+[2017.05.28-22.27.24:911][957]MapCheck: New page: Map Check
+[2017.05.28-22.27.24:911][957]LightingResults: New page: Lighting Build
+[2017.05.28-22.27.24:978][957]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.05.28-22.27.25:001][957]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.05.28-22.27.25:034][957]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 33.31ms to complete.
+[2017.05.28-22.27.25:034][957]LogFileHelpers: Loading map 'LS_Custom' took 0.126
+[2017.05.28-22.27.28:717][397]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (Light Source)
+[2017.05.28-22.27.29:779][518]Cmd: DELETE
+[2017.05.28-22.27.29:779][518]Cmd: ACTOR DELETE
+[2017.05.28-22.27.35:629][518]LogEditorActor: Deleted Actor: DirectionalLight
+[2017.05.28-22.27.35:638][518]LogEditorActor: Deleted 1 Actors (5.857 secs)
+[2017.05.28-22.27.40:015][ 42]LogAIModule: Creating AISystem for world LS_Red
+[2017.05.28-22.27.41:986][ 42]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Maps/LS_Custom" FILE="D:/UnrealProject/StudyLevelStreaming/Content/ThirdPersonBP/Maps/LS_Custom.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.05.28-22.27.42:187][ 42]LogSavePackage: Save=109.56ms
+[2017.05.28-22.27.42:187][ 42]LogSavePackage: Moving 'D:/UnrealProject/StudyLevelStreaming/Saved/LS_CustomB25D2A5E436E96DC0532948E01CBFFD2.tmp' to 'D:/UnrealProject/StudyLevelStreaming/Content/ThirdPersonBP/Maps/LS_Custom.umap'
+[2017.05.28-22.27.42:190][ 42]LogSavePackage:Display: Finished SavePackage D:/UnrealProject/StudyLevelStreaming/Content/ThirdPersonBP/Maps/LS_Custom.umap
+[2017.05.28-22.27.42:202][ 42]LogFileHelpers: Saving map 'LS_Custom' took 0.251
+[2017.05.28-22.27.42:203][ 42]Cmd: MAP LOAD FILE="D:/UnrealProject/StudyLevelStreaming/Content/ThirdPersonBP/Maps/LS_Red.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.05.28-22.27.42:203][ 42]LightingResults: New page: Lighting Build
+[2017.05.28-22.27.42:203][ 42]LoadErrors: New page: Loading map: LS_Red.umap
+[2017.05.28-22.27.42:204][ 42]MapCheck: New page: Map Check
+[2017.05.28-22.27.42:204][ 42]LightingResults: New page: Lighting Build
+[2017.05.28-22.27.42:257][ 42]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.05.28-22.27.42:278][ 42]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.05.28-22.27.42:311][ 42]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 33.784ms to complete.
+[2017.05.28-22.27.42:311][ 42]LogFileHelpers: Loading map 'LS_Red' took 0.109
+[2017.05.28-22.27.42:312][ 42]LogSlate: Took 0.000089 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.05.28-22.27.43:617][192]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.05.28-22.27.43:630][192]Cmd: MAP LOAD FILE="D:/UnrealProject/StudyLevelStreaming/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.05.28-22.27.43:630][192]LightingResults: New page: Lighting Build
+[2017.05.28-22.27.43:631][192]LoadErrors: New page: Loading map: ThirdPersonExampleMap.umap
+[2017.05.28-22.27.43:631][192]MapCheck: New page: Map Check
+[2017.05.28-22.27.43:631][192]LightingResults: New page: Lighting Build
+[2017.05.28-22.27.43:753][192]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.05.28-22.27.43:790][192]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.05.28-22.27.43:824][192]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 34.071ms to complete.
+[2017.05.28-22.27.43:826][192]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.196
+[2017.05.28-22.27.53:006][281]Cmd: MAP LOAD FILE="D:/UnrealProject/StudyLevelStreaming/Content/ThirdPersonBP/Maps/LS_Blue.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.05.28-22.27.53:006][281]LightingResults: New page: Lighting Build
+[2017.05.28-22.27.53:007][281]LoadErrors: New page: Loading map: LS_Blue.umap
+[2017.05.28-22.27.53:008][281]MapCheck: New page: Map Check
+[2017.05.28-22.27.53:008][281]LightingResults: New page: Lighting Build
+[2017.05.28-22.27.53:016][281]LogAIModule: Creating AISystem for world LS_Blue
+[2017.05.28-22.27.53:098][281]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.05.28-22.27.53:119][281]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.05.28-22.27.53:153][281]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 34.164ms to complete.
+[2017.05.28-22.27.53:155][281]LogFileHelpers: Loading map 'LS_Blue' took 0.149
+[2017.05.28-22.27.53:952][374]LogAIModule: Creating AISystem for world LS_Custom
+[2017.05.28-22.27.53:961][374]Cmd: MAP LOAD FILE="D:/UnrealProject/StudyLevelStreaming/Content/ThirdPersonBP/Maps/LS_Custom.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.05.28-22.27.53:961][374]LightingResults: New page: Lighting Build
+[2017.05.28-22.27.53:962][374]LoadErrors: New page: Loading map: LS_Custom.umap
+[2017.05.28-22.27.53:962][374]MapCheck: New page: Map Check
+[2017.05.28-22.27.53:962][374]LightingResults: New page: Lighting Build
+[2017.05.28-22.27.54:046][374]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.05.28-22.27.54:066][374]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.05.28-22.27.54:100][374]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 33.543ms to complete.
+[2017.05.28-22.27.54:100][374]LogFileHelpers: Loading map 'LS_Custom' took 0.139
+[2017.05.28-22.27.55:879][584]LogAIModule: Creating AISystem for world LS_Green
+[2017.05.28-22.27.55:888][584]Cmd: MAP LOAD FILE="D:/UnrealProject/StudyLevelStreaming/Content/ThirdPersonBP/Maps/LS_Green.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.05.28-22.27.55:888][584]LightingResults: New page: Lighting Build
+[2017.05.28-22.27.55:888][584]LoadErrors: New page: Loading map: LS_Green.umap
+[2017.05.28-22.27.55:889][584]MapCheck: New page: Map Check
+[2017.05.28-22.27.55:889][584]LightingResults: New page: Lighting Build
+[2017.05.28-22.27.55:975][584]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.05.28-22.27.55:995][584]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.05.28-22.27.56:029][584]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 33.421ms to complete.
+[2017.05.28-22.27.56:029][584]LogFileHelpers: Loading map 'LS_Green' took 0.142
+[2017.05.28-22.28.01:435][228]LogEditorActor: Deleted Actor: DirectionalLight
+[2017.05.28-22.28.01:442][228]LogEditorActor: Deleted 1 Actors (0.008 secs)
+[2017.05.28-22.28.02:923][405]LogAIModule: Creating AISystem for world LS_Red
+[2017.05.28-22.28.04:425][405]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Maps/LS_Green" FILE="D:/UnrealProject/StudyLevelStreaming/Content/ThirdPersonBP/Maps/LS_Green.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.05.28-22.28.04:513][405]LogSavePackage: Save=77.85ms
+[2017.05.28-22.28.04:513][405]LogSavePackage: Moving 'D:/UnrealProject/StudyLevelStreaming/Saved/LS_GreenEDFBD966455417C39E9DDABA4ED1BB02.tmp' to 'D:/UnrealProject/StudyLevelStreaming/Content/ThirdPersonBP/Maps/LS_Green.umap'
+[2017.05.28-22.28.04:514][405]LogSavePackage:Display: Finished SavePackage D:/UnrealProject/StudyLevelStreaming/Content/ThirdPersonBP/Maps/LS_Green.umap
+[2017.05.28-22.28.04:526][405]LogFileHelpers: Saving map 'LS_Green' took 0.136
+[2017.05.28-22.28.04:527][405]Cmd: MAP LOAD FILE="D:/UnrealProject/StudyLevelStreaming/Content/ThirdPersonBP/Maps/LS_Red.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.05.28-22.28.04:527][405]LightingResults: New page: Lighting Build
+[2017.05.28-22.28.04:527][405]LoadErrors: New page: Loading map: LS_Red.umap
+[2017.05.28-22.28.04:528][405]MapCheck: New page: Map Check
+[2017.05.28-22.28.04:528][405]LightingResults: New page: Lighting Build
+[2017.05.28-22.28.04:614][405]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.05.28-22.28.04:634][405]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.05.28-22.28.04:668][405]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 33.451ms to complete.
+[2017.05.28-22.28.04:668][405]LogFileHelpers: Loading map 'LS_Red' took 0.142
+[2017.05.28-22.28.05:268][470]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.05.28-22.28.05:279][470]Cmd: MAP LOAD FILE="D:/UnrealProject/StudyLevelStreaming/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.05.28-22.28.05:279][470]LightingResults: New page: Lighting Build
+[2017.05.28-22.28.05:279][470]LoadErrors: New page: Loading map: ThirdPersonExampleMap.umap
+[2017.05.28-22.28.05:280][470]MapCheck: New page: Map Check
+[2017.05.28-22.28.05:280][470]LightingResults: New page: Lighting Build
+[2017.05.28-22.28.05:468][470]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.05.28-22.28.05:490][470]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.05.28-22.28.05:525][470]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 34.874ms to complete.
+[2017.05.28-22.28.05:525][470]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.246
+[2017.05.28-22.29.10:724][213]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.28-22.29.10:834][213]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.05.28-22.29.10:834][213]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/LS_Green.LS_Green:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/LS_Green.LS_Green:PersistentLevel.LS_Green' with GeneratedClass '/Game/ThirdPersonBP/Maps/LS_Green.LS_Green_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/LS_Green.LS_Green:PersistentLevel.LS_Green'
+[2017.05.28-22.29.10:834][213]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/LS_Blue.LS_Blue:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/LS_Blue.LS_Blue:PersistentLevel.LS_Blue' with GeneratedClass '/Game/ThirdPersonBP/Maps/LS_Blue.LS_Blue_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/LS_Blue.LS_Blue:PersistentLevel.LS_Blue'
+[2017.05.28-22.29.10:834][213]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.28-22.29.10:836][213]PIE: New page: PIE session: ThirdPersonExampleMap (May 29, 2017, 2:29:10 PM)
+[2017.05.28-22.29.10:837][213]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.05.28-22.29.10:914][213]LogPlayLevel: PIE: StaticDuplicateObject took: (0.077556s)
+[2017.05.28-22.29.10:915][213]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.05.28-22.29.10:915][213]LogPlayLevel: PIE: World Init took: (0.001263s)
+[2017.05.28-22.29.10:916][213]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.079211s)
+[2017.05.28-22.29.10:934][213]LogInit: XAudio2 using '扬声器 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.28-22.29.10:942][213]LogInit: FAudioDevice initialized.
+[2017.05.28-22.29.11:013][213]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.05.28-22.29.11:020][213]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.05.29-06.29.11
+[2017.05.28-22.29.11:022][213]LogWorld: Bringing up level for play took: 0.005122
+[2017.05.28-22.29.11:091][213]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
+[2017.05.28-22.29.11:092][213]LogLevel: ActivateLevel /Game/ThirdPersonBP/Maps/UEDPIE_0_LS_Red 1 1 0
+[2017.05.28-22.29.11:092][213]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.808
+[2017.05.28-22.29.11:092][213]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.05.28-22.29.11:092][213]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/LS_Green.LS_Green:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/LS_Green.LS_Green:PersistentLevel.LS_Green' with GeneratedClass '/Game/ThirdPersonBP/Maps/LS_Green.LS_Green_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/LS_Green.LS_Green:PersistentLevel.LS_Green'
+[2017.05.28-22.29.11:092][213]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/LS_Blue.LS_Blue:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/LS_Blue.LS_Blue:PersistentLevel.LS_Blue' with GeneratedClass '/Game/ThirdPersonBP/Maps/LS_Blue.LS_Blue_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/LS_Blue.LS_Blue:PersistentLevel.LS_Blue'
+[2017.05.28-22.29.30:244][509]LogLevel: ActivateLevel /Game/ThirdPersonBP/Maps/UEDPIE_0_LS_Green 1 1 0
+[2017.05.28-22.29.33:087][850]LogLevel: ActivateLevel /Game/ThirdPersonBP/Maps/UEDPIE_0_LS_Green 0 0 0
+[2017.05.28-22.29.35:218][105]LogLevel: ActivateLevel /Game/ThirdPersonBP/Maps/UEDPIE_0_LS_Green 1 1 0
+[2017.05.28-22.29.40:921][789]LogLevel: ActivateLevel /Game/ThirdPersonBP/Maps/UEDPIE_0_LS_Blue 1 1 0
+[2017.05.28-22.29.41:415][848]LogLevel: ActivateLevel /Game/ThirdPersonBP/Maps/UEDPIE_0_LS_Blue 0 0 0
+[2017.05.28-22.29.41:860][901]LogLevel: ActivateLevel /Game/ThirdPersonBP/Maps/UEDPIE_0_LS_Blue 1 1 0
+[2017.05.28-22.29.42:636][994]LogLevel: ActivateLevel /Game/ThirdPersonBP/Maps/UEDPIE_0_LS_Blue 0 0 0
+[2017.05.28-22.29.43:088][ 48]LogLevel: ActivateLevel /Game/ThirdPersonBP/Maps/UEDPIE_0_LS_Blue 1 1 0
+[2017.05.28-22.29.43:383][ 83]LogLevel: ActivateLevel /Game/ThirdPersonBP/Maps/UEDPIE_0_LS_Blue 0 0 0
+[2017.05.28-22.29.45:093][288]LogLevel: ActivateLevel /Game/ThirdPersonBP/Maps/UEDPIE_0_LS_Blue 1 1 0
+[2017.05.28-22.29.53:654][315]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.05.28-22.29.53:654][315]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/LS_Green.LS_Green:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/LS_Green.LS_Green:PersistentLevel.LS_Green' with GeneratedClass '/Game/ThirdPersonBP/Maps/LS_Green.LS_Green_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/LS_Green.LS_Green:PersistentLevel.LS_Green'
+[2017.05.28-22.29.53:654][315]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/LS_Blue.LS_Blue:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/LS_Blue.LS_Blue:PersistentLevel.LS_Blue' with GeneratedClass '/Game/ThirdPersonBP/Maps/LS_Blue.LS_Blue_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/LS_Blue.LS_Blue:PersistentLevel.LS_Blue'
+[2017.05.28-22.29.53:687][315]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.05.28-22.29.53:687][315]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/LS_Green.LS_Green:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/LS_Green.LS_Green:PersistentLevel.LS_Green' with GeneratedClass '/Game/ThirdPersonBP/Maps/LS_Green.LS_Green_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/LS_Green.LS_Green:PersistentLevel.LS_Green'
+[2017.05.28-22.29.53:687][315]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/LS_Blue.LS_Blue:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/LS_Blue.LS_Blue:PersistentLevel.LS_Blue' with GeneratedClass '/Game/ThirdPersonBP/Maps/LS_Blue.LS_Blue_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/LS_Blue.LS_Blue:PersistentLevel.LS_Blue'
+[2017.05.28-22.29.55:960][583]LogSlate: Took 0.000117 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.05.28-22.30.01:125][143]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 112 classes and 0 folders.
+[2017.05.28-22.30.01:567][143]LogSlate: Took 0.003010 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.05.28-22.30.01:653][144]LogSlate: Took 0.003904 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.05.28-22.33.41:017][694]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2017.05.28-22.33.54:508][302]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.28-22.33.54:522][302]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.05.28-22.33.54:522][302]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/LS_Green.LS_Green:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/LS_Green.LS_Green:PersistentLevel.LS_Green' with GeneratedClass '/Game/ThirdPersonBP/Maps/LS_Green.LS_Green_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/LS_Green.LS_Green:PersistentLevel.LS_Green'
+[2017.05.28-22.33.54:522][302]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/LS_Blue.LS_Blue:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/LS_Blue.LS_Blue:PersistentLevel.LS_Blue' with GeneratedClass '/Game/ThirdPersonBP/Maps/LS_Blue.LS_Blue_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/LS_Blue.LS_Blue:PersistentLevel.LS_Blue'
+[2017.05.28-22.33.54:522][302]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.28-22.33.54:522][302]PIE: New page: PIE session: ThirdPersonExampleMap (May 29, 2017, 2:33:54 PM)
+[2017.05.28-22.33.54:522][302]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.05.28-22.33.54:539][302]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016753s)
+[2017.05.28-22.33.54:540][302]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.05.28-22.33.54:540][302]LogPlayLevel: PIE: World Init took: (0.000660s)
+[2017.05.28-22.33.54:540][302]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.017684s)
+[2017.05.28-22.33.54:560][302]LogInit: XAudio2 using '扬声器 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.28-22.33.54:567][302]LogInit: FAudioDevice initialized.
+[2017.05.28-22.33.54:599][302]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.05.28-22.33.54:601][302]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.05.29-06.33.54
+[2017.05.28-22.33.54:601][302]LogWorld: Bringing up level for play took: 0.001208
+[2017.05.28-22.33.54:602][302]LogLevel: ActivateLevel /Game/ThirdPersonBP/Maps/UEDPIE_0_LS_Red 1 1 0
+[2017.05.28-22.33.54:602][302]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.318
+[2017.05.28-22.33.54:602][302]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.05.28-22.33.54:602][302]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/LS_Green.LS_Green:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/LS_Green.LS_Green:PersistentLevel.LS_Green' with GeneratedClass '/Game/ThirdPersonBP/Maps/LS_Green.LS_Green_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/LS_Green.LS_Green:PersistentLevel.LS_Green'
+[2017.05.28-22.33.54:602][302]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/LS_Blue.LS_Blue:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/LS_Blue.LS_Blue:PersistentLevel.LS_Blue' with GeneratedClass '/Game/ThirdPersonBP/Maps/LS_Blue.LS_Blue_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/LS_Blue.LS_Blue:PersistentLevel.LS_Blue'
+[2017.05.28-22.34.06:475][722]LogLevel: ActivateLevel /Game/ThirdPersonBP/Maps/UEDPIE_0_LS_Green 1 1 0
+[2017.05.28-22.34.22:227][612]LogLevel: ActivateLevel /Game/ThirdPersonBP/Maps/UEDPIE_0_LS_Green 0 0 0
+[2017.05.28-22.34.23:534][768]LogLevel: ActivateLevel /Game/ThirdPersonBP/Maps/UEDPIE_0_LS_Green 1 1 0
+[2017.05.28-22.34.24:386][870]LogLevel: ActivateLevel /Game/ThirdPersonBP/Maps/UEDPIE_0_LS_Green 0 0 0
+[2017.05.28-22.34.24:802][919]LogLevel: ActivateLevel /Game/ThirdPersonBP/Maps/UEDPIE_0_LS_Green 1 1 0
+[2017.05.28-22.34.25:130][958]LogLevel: ActivateLevel /Game/ThirdPersonBP/Maps/UEDPIE_0_LS_Green 0 0 0
+[2017.05.28-22.34.27:169][202]LogLevel: ActivateLevel /Game/ThirdPersonBP/Maps/UEDPIE_0_LS_Green 1 1 0
+[2017.05.28-22.34.31:398][709]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.05.28-22.34.31:398][709]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/LS_Green.LS_Green:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/LS_Green.LS_Green:PersistentLevel.LS_Green' with GeneratedClass '/Game/ThirdPersonBP/Maps/LS_Green.LS_Green_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/LS_Green.LS_Green:PersistentLevel.LS_Green'
+[2017.05.28-22.34.31:398][709]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/LS_Blue.LS_Blue:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/LS_Blue.LS_Blue:PersistentLevel.LS_Blue' with GeneratedClass '/Game/ThirdPersonBP/Maps/LS_Blue.LS_Blue_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/LS_Blue.LS_Blue:PersistentLevel.LS_Blue'
+[2017.05.28-22.34.31:435][709]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.05.28-22.34.31:435][709]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/LS_Green.LS_Green:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/LS_Green.LS_Green:PersistentLevel.LS_Green' with GeneratedClass '/Game/ThirdPersonBP/Maps/LS_Green.LS_Green_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/LS_Green.LS_Green:PersistentLevel.LS_Green'
+[2017.05.28-22.34.31:435][709]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/LS_Blue.LS_Blue:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/LS_Blue.LS_Blue:PersistentLevel.LS_Blue' with GeneratedClass '/Game/ThirdPersonBP/Maps/LS_Blue.LS_Blue_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/LS_Blue.LS_Blue:PersistentLevel.LS_Blue'
+[2017.05.28-22.35.36:133][407]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.28-22.35.36:142][407]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.05.28-22.35.36:142][407]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/LS_Green.LS_Green:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/LS_Green.LS_Green:PersistentLevel.LS_Green' with GeneratedClass '/Game/ThirdPersonBP/Maps/LS_Green.LS_Green_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/LS_Green.LS_Green:PersistentLevel.LS_Green'
+[2017.05.28-22.35.36:142][407]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/LS_Blue.LS_Blue:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/LS_Blue.LS_Blue:PersistentLevel.LS_Blue' with GeneratedClass '/Game/ThirdPersonBP/Maps/LS_Blue.LS_Blue_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/LS_Blue.LS_Blue:PersistentLevel.LS_Blue'
+[2017.05.28-22.35.36:142][407]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.28-22.35.36:142][407]PIE: New page: PIE session: ThirdPersonExampleMap (May 29, 2017, 2:35:36 PM)
+[2017.05.28-22.35.36:143][407]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.05.28-22.35.36:158][407]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015402s)
+[2017.05.28-22.35.36:159][407]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.05.28-22.35.36:159][407]LogPlayLevel: PIE: World Init took: (0.000809s)
+[2017.05.28-22.35.36:159][407]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.016412s)
+[2017.05.28-22.35.36:176][407]LogInit: XAudio2 using '扬声器 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.28-22.35.36:184][407]LogInit: FAudioDevice initialized.
+[2017.05.28-22.35.36:213][407]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.05.28-22.35.36:215][407]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.05.29-06.35.36
+[2017.05.28-22.35.36:215][407]LogWorld: Bringing up level for play took: 0.001318
+[2017.05.28-22.35.36:215][407]LogLevel: ActivateLevel /Game/ThirdPersonBP/Maps/UEDPIE_0_LS_Red 1 1 0
+[2017.05.28-22.35.36:216][407]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.069
+[2017.05.28-22.35.36:216][407]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.05.28-22.35.36:216][407]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/LS_Green.LS_Green:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/LS_Green.LS_Green:PersistentLevel.LS_Green' with GeneratedClass '/Game/ThirdPersonBP/Maps/LS_Green.LS_Green_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/LS_Green.LS_Green:PersistentLevel.LS_Green'
+[2017.05.28-22.35.36:216][407]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/LS_Blue.LS_Blue:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/LS_Blue.LS_Blue:PersistentLevel.LS_Blue' with GeneratedClass '/Game/ThirdPersonBP/Maps/LS_Blue.LS_Blue_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/LS_Blue.LS_Blue:PersistentLevel.LS_Blue'
+[2017.05.28-22.35.39:286][772]LogLevel: ActivateLevel /Game/ThirdPersonBP/Maps/UEDPIE_0_LS_Green 1 1 0
+[2017.05.28-22.36.01:424][428]LogLevel: ActivateLevel /Game/ThirdPersonBP/Maps/UEDPIE_0_LS_Green 0 0 0
+[2017.05.28-22.36.04:084][746]LogLevel: ActivateLevel /Game/ThirdPersonBP/Maps/UEDPIE_0_LS_Green 1 1 0
+[2017.05.28-22.36.04:637][812]LogLevel: ActivateLevel /Game/ThirdPersonBP/Maps/UEDPIE_0_LS_Green 0 0 0
+[2017.05.28-22.36.05:428][906]LogLevel: ActivateLevel /Game/ThirdPersonBP/Maps/UEDPIE_0_LS_Green 1 1 0
+[2017.05.28-22.36.05:981][972]LogLevel: ActivateLevel /Game/ThirdPersonBP/Maps/UEDPIE_0_LS_Green 0 0 0
+[2017.05.28-22.36.06:434][ 25]LogLevel: ActivateLevel /Game/ThirdPersonBP/Maps/UEDPIE_0_LS_Green 1 1 0
+[2017.05.28-22.36.37:038][697]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.05.28-22.36.37:038][697]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/LS_Green.LS_Green:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/LS_Green.LS_Green:PersistentLevel.LS_Green' with GeneratedClass '/Game/ThirdPersonBP/Maps/LS_Green.LS_Green_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/LS_Green.LS_Green:PersistentLevel.LS_Green'
+[2017.05.28-22.36.37:038][697]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/LS_Blue.LS_Blue:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/LS_Blue.LS_Blue:PersistentLevel.LS_Blue' with GeneratedClass '/Game/ThirdPersonBP/Maps/LS_Blue.LS_Blue_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/LS_Blue.LS_Blue:PersistentLevel.LS_Blue'
+[2017.05.28-22.36.37:073][697]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.05.28-22.36.37:073][697]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/LS_Green.LS_Green:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/LS_Green.LS_Green:PersistentLevel.LS_Green' with GeneratedClass '/Game/ThirdPersonBP/Maps/LS_Green.LS_Green_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/LS_Green.LS_Green:PersistentLevel.LS_Green'
+[2017.05.28-22.36.37:073][697]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/LS_Blue.LS_Blue:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/LS_Blue.LS_Blue:PersistentLevel.LS_Blue' with GeneratedClass '/Game/ThirdPersonBP/Maps/LS_Blue.LS_Blue_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/LS_Blue.LS_Blue:PersistentLevel.LS_Blue'
+[2017.05.28-22.42.22:182][235]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2017.05.28-22.42.22:821][267]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter" FILE="D:/UnrealProject/StudyLevelStreaming/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset" SILENT=true
+[2017.05.28-22.42.22:875][267]LogSavePackage: Save=49.68ms
+[2017.05.28-22.42.22:875][267]LogSavePackage: Moving 'D:/UnrealProject/StudyLevelStreaming/Saved/ThirdPersonCharacterA2C18D904C24FDA6684A19B51F0098E9.tmp' to 'D:/UnrealProject/StudyLevelStreaming/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2017.05.28-22.42.22:897][267]LogSavePackage:Display: Finished SavePackage D:/UnrealProject/StudyLevelStreaming/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2017.05.28-22.44.09:443][602]BlueprintLog: New page: Compile LS_Blue
+[2017.05.28-22.44.10:031][658]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Maps/LS_Blue" FILE="D:/UnrealProject/StudyLevelStreaming/Content/ThirdPersonBP/Maps/LS_Blue.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.05.28-22.44.10:053][658]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: LS_Blue, Actor: /Game/ThirdPersonBP/Maps/LS_Blue.LS_Blue:PersistentLevel.LS_Blue_C_0
+[2017.05.28-22.44.10:707][658]LogSavePackage: Save=662.04ms
+[2017.05.28-22.44.10:708][658]LogSavePackage: Moving 'D:/UnrealProject/StudyLevelStreaming/Saved/LS_BlueC2629F0C4FE254811E08A79BDA2763DD.tmp' to 'D:/UnrealProject/StudyLevelStreaming/Content/ThirdPersonBP/Maps/LS_Blue.umap'
+[2017.05.28-22.44.10:709][658]LogSavePackage:Display: Finished SavePackage D:/UnrealProject/StudyLevelStreaming/Content/ThirdPersonBP/Maps/LS_Blue.umap
+[2017.05.28-22.44.10:710][658]LogFileHelpers: Saving map 'LS_Blue' took 0.718
+[2017.05.28-22.44.38:205][855]BlueprintLog: New page: Compile LS_Green
+[2017.05.28-22.44.38:996][934]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Maps/LS_Green" FILE="D:/UnrealProject/StudyLevelStreaming/Content/ThirdPersonBP/Maps/LS_Green.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.05.28-22.44.39:015][934]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: LS_Green, Actor: /Game/ThirdPersonBP/Maps/LS_Green.LS_Green:PersistentLevel.LS_Green_C_1
+[2017.05.28-22.44.39:100][934]LogSavePackage: Save=89.22ms
+[2017.05.28-22.44.39:100][934]LogSavePackage: Moving 'D:/UnrealProject/StudyLevelStreaming/Saved/LS_Green75F4138848FFBF929E86EC8B2EA7BB1E.tmp' to 'D:/UnrealProject/StudyLevelStreaming/Content/ThirdPersonBP/Maps/LS_Green.umap'
+[2017.05.28-22.44.39:101][934]LogSavePackage:Display: Finished SavePackage D:/UnrealProject/StudyLevelStreaming/Content/ThirdPersonBP/Maps/LS_Green.umap
+[2017.05.28-22.44.39:101][934]LogFileHelpers: Saving map 'LS_Green' took 0.141
+[2017.05.28-22.46.08:874][873]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2017.05.28-22.46.20:641][283]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.28-22.46.20:653][283]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.05.28-22.46.20:653][283]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/LS_Green.LS_Green:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/LS_Green.LS_Green:PersistentLevel.LS_Green' with GeneratedClass '/Game/ThirdPersonBP/Maps/LS_Green.LS_Green_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/LS_Green.LS_Green:PersistentLevel.LS_Green'
+[2017.05.28-22.46.20:653][283]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/LS_Blue.LS_Blue:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/LS_Blue.LS_Blue:PersistentLevel.LS_Blue' with GeneratedClass '/Game/ThirdPersonBP/Maps/LS_Blue.LS_Blue_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/LS_Blue.LS_Blue:PersistentLevel.LS_Blue'
+[2017.05.28-22.46.20:653][283]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.28-22.46.20:653][283]PIE: New page: PIE session: ThirdPersonExampleMap (May 29, 2017, 2:46:20 PM)
+[2017.05.28-22.46.20:653][283]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.05.28-22.46.20:672][283]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018617s)
+[2017.05.28-22.46.20:673][283]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.05.28-22.46.20:673][283]LogPlayLevel: PIE: World Init took: (0.000784s)
+[2017.05.28-22.46.20:673][283]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.019659s)
+[2017.05.28-22.46.20:691][283]LogInit: XAudio2 using '扬声器 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.28-22.46.20:699][283]LogInit: FAudioDevice initialized.
+[2017.05.28-22.46.20:727][283]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.05.28-22.46.20:730][283]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.05.29-06.46.20
+[2017.05.28-22.46.20:730][283]LogWorld: Bringing up level for play took: 0.001224
+[2017.05.28-22.46.20:731][283]LogLevel: ActivateLevel /Game/ThirdPersonBP/Maps/UEDPIE_0_LS_Red 1 1 0
+[2017.05.28-22.46.20:731][283]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.446
+[2017.05.28-22.46.20:731][283]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.05.28-22.46.20:731][283]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/LS_Green.LS_Green:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/LS_Green.LS_Green:PersistentLevel.LS_Green' with GeneratedClass '/Game/ThirdPersonBP/Maps/LS_Green.LS_Green_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/LS_Green.LS_Green:PersistentLevel.LS_Green'
+[2017.05.28-22.46.20:731][283]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/LS_Blue.LS_Blue:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/LS_Blue.LS_Blue:PersistentLevel.LS_Blue' with GeneratedClass '/Game/ThirdPersonBP/Maps/LS_Blue.LS_Blue_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/LS_Blue.LS_Blue:PersistentLevel.LS_Blue'
+[2017.05.28-22.46.31:708][594]LogLevel: ActivateLevel /Game/ThirdPersonBP/Maps/UEDPIE_0_LS_Green 1 1 0
+[2017.05.28-22.46.35:291][ 24]LogLevel: ActivateLevel /Game/ThirdPersonBP/Maps/UEDPIE_0_LS_Green 0 0 0
+[2017.05.28-22.46.38:369][392]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.05.28-22.46.38:369][392]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/LS_Green.LS_Green:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/LS_Green.LS_Green:PersistentLevel.LS_Green' with GeneratedClass '/Game/ThirdPersonBP/Maps/LS_Green.LS_Green_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/LS_Green.LS_Green:PersistentLevel.LS_Green'
+[2017.05.28-22.46.38:369][392]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/LS_Blue.LS_Blue:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/LS_Blue.LS_Blue:PersistentLevel.LS_Blue' with GeneratedClass '/Game/ThirdPersonBP/Maps/LS_Blue.LS_Blue_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/LS_Blue.LS_Blue:PersistentLevel.LS_Blue'
+[2017.05.28-22.46.38:401][392]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.05.28-22.46.38:401][392]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/LS_Green.LS_Green:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/LS_Green.LS_Green:PersistentLevel.LS_Green' with GeneratedClass '/Game/ThirdPersonBP/Maps/LS_Green.LS_Green_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/LS_Green.LS_Green:PersistentLevel.LS_Green'
+[2017.05.28-22.46.38:401][392]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/LS_Blue.LS_Blue:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/LS_Blue.LS_Blue:PersistentLevel.LS_Blue' with GeneratedClass '/Game/ThirdPersonBP/Maps/LS_Blue.LS_Blue_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/LS_Blue.LS_Blue:PersistentLevel.LS_Blue'
+[2017.05.28-22.47.32:818][861]BlueprintLog: New page: Compile ThirdPersonExampleMap
+[2017.05.28-22.47.33:982][960]LogSavePackage: Save=167.80ms
+[2017.05.28-22.47.33:982][960]LogSavePackage: Moving 'D:/UnrealProject/StudyLevelStreaming/Saved/ThirdPersonExampleMap6637D1554B2227997086DD87534D9718.tmp' to 'D:/UnrealProject/StudyLevelStreaming/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2017.05.28-22.47.33:983][960]LogSavePackage:Display: Finished SavePackage D:/UnrealProject/StudyLevelStreaming/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2017.05.28-22.47.33:996][960]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.262
+[2017.05.28-22.47.44:928][261]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.28-22.47.44:937][261]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.05.28-22.47.44:937][261]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/LS_Green.LS_Green:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/LS_Green.LS_Green:PersistentLevel.LS_Green' with GeneratedClass '/Game/ThirdPersonBP/Maps/LS_Green.LS_Green_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/LS_Green.LS_Green:PersistentLevel.LS_Green'
+[2017.05.28-22.47.44:937][261]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/LS_Blue.LS_Blue:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/LS_Blue.LS_Blue:PersistentLevel.LS_Blue' with GeneratedClass '/Game/ThirdPersonBP/Maps/LS_Blue.LS_Blue_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/LS_Blue.LS_Blue:PersistentLevel.LS_Blue'
+[2017.05.28-22.47.44:937][261]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.28-22.47.44:937][261]PIE: New page: PIE session: ThirdPersonExampleMap (May 29, 2017, 2:47:44 PM)
+[2017.05.28-22.47.44:937][261]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.05.28-22.47.44:953][261]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016439s)
+[2017.05.28-22.47.44:954][261]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.05.28-22.47.44:954][261]LogPlayLevel: PIE: World Init took: (0.000822s)
+[2017.05.28-22.47.44:954][261]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.017463s)
+[2017.05.28-22.47.44:972][261]LogInit: XAudio2 using '扬声器 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.28-22.47.44:980][261]LogInit: FAudioDevice initialized.
+[2017.05.28-22.47.45:010][261]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.05.28-22.47.45:014][261]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.05.29-06.47.45
+[2017.05.28-22.47.45:015][261]LogWorld: Bringing up level for play took: 0.002513
+[2017.05.28-22.47.45:016][261]LogLevel: ActivateLevel /Game/ThirdPersonBP/Maps/UEDPIE_0_LS_Red 1 1 0
+[2017.05.28-22.47.45:016][261]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.732
+[2017.05.28-22.47.45:016][261]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.05.28-22.47.45:016][261]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/LS_Green.LS_Green:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/LS_Green.LS_Green:PersistentLevel.LS_Green' with GeneratedClass '/Game/ThirdPersonBP/Maps/LS_Green.LS_Green_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/LS_Green.LS_Green:PersistentLevel.LS_Green'
+[2017.05.28-22.47.45:016][261]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/LS_Blue.LS_Blue:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/LS_Blue.LS_Blue:PersistentLevel.LS_Blue' with GeneratedClass '/Game/ThirdPersonBP/Maps/LS_Blue.LS_Blue_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/LS_Blue.LS_Blue:PersistentLevel.LS_Blue'
+[2017.05.28-22.47.48:430][666]LogLevel: ActivateLevel /Game/ThirdPersonBP/Maps/UEDPIE_0_LS_Green 1 1 0
+[2017.05.28-22.48.03:925][525]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.05.28-22.48.03:925][525]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/LS_Green.LS_Green:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/LS_Green.LS_Green:PersistentLevel.LS_Green' with GeneratedClass '/Game/ThirdPersonBP/Maps/LS_Green.LS_Green_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/LS_Green.LS_Green:PersistentLevel.LS_Green'
+[2017.05.28-22.48.03:925][525]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/LS_Blue.LS_Blue:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/LS_Blue.LS_Blue:PersistentLevel.LS_Blue' with GeneratedClass '/Game/ThirdPersonBP/Maps/LS_Blue.LS_Blue_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/LS_Blue.LS_Blue:PersistentLevel.LS_Blue'
+[2017.05.28-22.48.03:962][525]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.05.28-22.48.03:962][525]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/LS_Green.LS_Green:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/LS_Green.LS_Green:PersistentLevel.LS_Green' with GeneratedClass '/Game/ThirdPersonBP/Maps/LS_Green.LS_Green_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/LS_Green.LS_Green:PersistentLevel.LS_Green'
+[2017.05.28-22.48.03:962][525]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/LS_Blue.LS_Blue:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/LS_Blue.LS_Blue:PersistentLevel.LS_Blue' with GeneratedClass '/Game/ThirdPersonBP/Maps/LS_Blue.LS_Blue_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/LS_Blue.LS_Blue:PersistentLevel.LS_Blue'
+[2017.05.28-22.48.15:961][861]BlueprintLog: New page: Compile LS_Blue
+[2017.05.28-22.48.27:293][118]BlueprintLog: New page: Compile LS_Green
+[2017.05.28-22.48.27:864][171]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Maps/LS_Green" FILE="D:/UnrealProject/StudyLevelStreaming/Content/ThirdPersonBP/Maps/LS_Green.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.05.28-22.48.27:880][171]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: LS_Green, Actor: /Game/ThirdPersonBP/Maps/LS_Green.LS_Green:PersistentLevel.LS_Green_C_1
+[2017.05.28-22.48.27:996][171]LogSavePackage: Save=120.30ms
+[2017.05.28-22.48.27:996][171]LogSavePackage: Moving 'D:/UnrealProject/StudyLevelStreaming/Saved/LS_Green3B748A2A450799344FEFD1810F81657F.tmp' to 'D:/UnrealProject/StudyLevelStreaming/Content/ThirdPersonBP/Maps/LS_Green.umap'
+[2017.05.28-22.48.27:997][171]LogSavePackage:Display: Finished SavePackage D:/UnrealProject/StudyLevelStreaming/Content/ThirdPersonBP/Maps/LS_Green.umap
+[2017.05.28-22.48.27:998][171]LogFileHelpers: Saving map 'LS_Green' took 0.170
+[2017.05.28-22.50.00:861][140]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.28-22.50.00:870][140]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.05.28-22.50.00:870][140]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/LS_Green.LS_Green:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/LS_Green.LS_Green:PersistentLevel.LS_Green' with GeneratedClass '/Game/ThirdPersonBP/Maps/LS_Green.LS_Green_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/LS_Green.LS_Green:PersistentLevel.LS_Green'
+[2017.05.28-22.50.00:870][140]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/LS_Blue.LS_Blue:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/LS_Blue.LS_Blue:PersistentLevel.LS_Blue' with GeneratedClass '/Game/ThirdPersonBP/Maps/LS_Blue.LS_Blue_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/LS_Blue.LS_Blue:PersistentLevel.LS_Blue'
+[2017.05.28-22.50.00:870][140]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.28-22.50.00:870][140]PIE: New page: PIE session: ThirdPersonExampleMap (May 29, 2017, 2:50:00 PM)
+[2017.05.28-22.50.00:870][140]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.05.28-22.50.00:887][140]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016803s)
+[2017.05.28-22.50.00:888][140]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.05.28-22.50.00:888][140]LogPlayLevel: PIE: World Init took: (0.000630s)
+[2017.05.28-22.50.00:888][140]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.017622s)
+[2017.05.28-22.50.00:904][140]LogInit: XAudio2 using '扬声器 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.28-22.50.00:912][140]LogInit: FAudioDevice initialized.
+[2017.05.28-22.50.00:946][140]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.05.28-22.50.00:952][140]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.05.29-06.50.00
+[2017.05.28-22.50.00:953][140]LogWorld: Bringing up level for play took: 0.003297
+[2017.05.28-22.50.00:954][140]LogLevel: ActivateLevel /Game/ThirdPersonBP/Maps/UEDPIE_0_LS_Red 1 1 0
+[2017.05.28-22.50.00:954][140]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.67
+[2017.05.28-22.50.00:955][140]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.05.28-22.50.00:955][140]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/LS_Green.LS_Green:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/LS_Green.LS_Green:PersistentLevel.LS_Green' with GeneratedClass '/Game/ThirdPersonBP/Maps/LS_Green.LS_Green_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/LS_Green.LS_Green:PersistentLevel.LS_Green'
+[2017.05.28-22.50.00:955][140]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/LS_Blue.LS_Blue:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/LS_Blue.LS_Blue:PersistentLevel.LS_Blue' with GeneratedClass '/Game/ThirdPersonBP/Maps/LS_Blue.LS_Blue_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/LS_Blue.LS_Blue:PersistentLevel.LS_Blue'
+[2017.05.28-22.50.09:367][144]LogLevel: ActivateLevel /Game/ThirdPersonBP/Maps/UEDPIE_0_LS_Green 1 1 0
+[2017.05.28-22.50.13:584][650]LogLevel: ActivateLevel /Game/ThirdPersonBP/Maps/UEDPIE_0_LS_Green 0 0 0
+[2017.05.28-22.50.14:914][809]LogLevel: ActivateLevel /Game/ThirdPersonBP/Maps/UEDPIE_0_LS_Green 1 1 0
+[2017.05.28-22.50.15:523][882]LogLevel: ActivateLevel /Game/ThirdPersonBP/Maps/UEDPIE_0_LS_Green 0 0 0
+[2017.05.28-22.50.16:286][973]LogLevel: ActivateLevel /Game/ThirdPersonBP/Maps/UEDPIE_0_LS_Green 1 1 0
+[2017.05.28-22.50.17:562][126]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.05.28-22.50.17:562][126]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/LS_Green.LS_Green:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/LS_Green.LS_Green:PersistentLevel.LS_Green' with GeneratedClass '/Game/ThirdPersonBP/Maps/LS_Green.LS_Green_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/LS_Green.LS_Green:PersistentLevel.LS_Green'
+[2017.05.28-22.50.17:562][126]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/LS_Blue.LS_Blue:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/LS_Blue.LS_Blue:PersistentLevel.LS_Blue' with GeneratedClass '/Game/ThirdPersonBP/Maps/LS_Blue.LS_Blue_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/LS_Blue.LS_Blue:PersistentLevel.LS_Blue'
+[2017.05.28-22.50.17:597][126]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.05.28-22.50.17:597][126]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/LS_Green.LS_Green:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/LS_Green.LS_Green:PersistentLevel.LS_Green' with GeneratedClass '/Game/ThirdPersonBP/Maps/LS_Green.LS_Green_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/LS_Green.LS_Green:PersistentLevel.LS_Green'
+[2017.05.28-22.50.17:597][126]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/LS_Blue.LS_Blue:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/LS_Blue.LS_Blue:PersistentLevel.LS_Blue' with GeneratedClass '/Game/ThirdPersonBP/Maps/LS_Blue.LS_Blue_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/LS_Blue.LS_Blue:PersistentLevel.LS_Blue'
+[2017.05.28-22.51.19:130][442]BlueprintLog: New page: Compile ThirdPersonExampleMap
+[2017.05.28-22.51.20:113][523]LogSavePackage: Save=170.37ms
+[2017.05.28-22.51.20:113][523]LogSavePackage: Moving 'D:/UnrealProject/StudyLevelStreaming/Saved/ThirdPersonExampleMap1DBEB9F44F7275E8526D2E822A3B0A02.tmp' to 'D:/UnrealProject/StudyLevelStreaming/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2017.05.28-22.51.20:118][523]LogSavePackage:Display: Finished SavePackage D:/UnrealProject/StudyLevelStreaming/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2017.05.28-22.51.20:160][523]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.268
+[2017.05.28-22.51.30:293][729]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.28-22.51.30:301][729]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.05.28-22.51.30:301][729]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/LS_Green.LS_Green:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/LS_Green.LS_Green:PersistentLevel.LS_Green' with GeneratedClass '/Game/ThirdPersonBP/Maps/LS_Green.LS_Green_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/LS_Green.LS_Green:PersistentLevel.LS_Green'
+[2017.05.28-22.51.30:301][729]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/LS_Blue.LS_Blue:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/LS_Blue.LS_Blue:PersistentLevel.LS_Blue' with GeneratedClass '/Game/ThirdPersonBP/Maps/LS_Blue.LS_Blue_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/LS_Blue.LS_Blue:PersistentLevel.LS_Blue'
+[2017.05.28-22.51.30:301][729]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.28-22.51.30:301][729]PIE: New page: PIE session: ThirdPersonExampleMap (May 29, 2017, 2:51:30 PM)
+[2017.05.28-22.51.30:301][729]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.05.28-22.51.30:318][729]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016426s)
+[2017.05.28-22.51.30:319][729]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.05.28-22.51.30:319][729]LogPlayLevel: PIE: World Init took: (0.000743s)
+[2017.05.28-22.51.30:319][729]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.017350s)
+[2017.05.28-22.51.30:336][729]LogInit: XAudio2 using '扬声器 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.28-22.51.30:344][729]LogInit: FAudioDevice initialized.
+[2017.05.28-22.51.30:378][729]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.05.28-22.51.30:382][729]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.05.29-06.51.30
+[2017.05.28-22.51.30:382][729]LogWorld: Bringing up level for play took: 0.002285
+[2017.05.28-22.51.30:383][729]LogLevel: ActivateLevel /Game/ThirdPersonBP/Maps/UEDPIE_0_LS_Red 1 1 0
+[2017.05.28-22.51.30:383][729]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.099
+[2017.05.28-22.51.30:384][729]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.05.28-22.51.30:384][729]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/LS_Green.LS_Green:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/LS_Green.LS_Green:PersistentLevel.LS_Green' with GeneratedClass '/Game/ThirdPersonBP/Maps/LS_Green.LS_Green_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/LS_Green.LS_Green:PersistentLevel.LS_Green'
+[2017.05.28-22.51.30:384][729]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/LS_Blue.LS_Blue:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/LS_Blue.LS_Blue:PersistentLevel.LS_Blue' with GeneratedClass '/Game/ThirdPersonBP/Maps/LS_Blue.LS_Blue_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/LS_Blue.LS_Blue:PersistentLevel.LS_Blue'
+[2017.05.28-22.51.33:447][ 91]LogLevel: ActivateLevel /Game/ThirdPersonBP/Maps/UEDPIE_0_LS_Green 1 1 0
+[2017.05.28-22.51.49:900][ 65]LogLevel: ActivateLevel /Game/ThirdPersonBP/Maps/UEDPIE_0_LS_Green 0 0 0
+[2017.05.28-22.51.53:524][499]LogLevel: ActivateLevel /Game/ThirdPersonBP/Maps/UEDPIE_0_LS_Green 1 1 0
+[2017.05.28-22.51.54:276][589]LogLevel: ActivateLevel /Game/ThirdPersonBP/Maps/UEDPIE_0_LS_Green 0 0 0
+[2017.05.28-22.51.54:708][640]LogLevel: ActivateLevel /Game/ThirdPersonBP/Maps/UEDPIE_0_LS_Green 1 1 0
+[2017.05.28-22.51.59:968][271]LogLevel: ActivateLevel /Game/ThirdPersonBP/Maps/UEDPIE_0_LS_Blue 1 1 0
+[2017.05.28-22.52.03:204][659]LogLevel: ActivateLevel /Game/ThirdPersonBP/Maps/UEDPIE_0_LS_Blue 0 0 0
+[2017.05.28-22.52.04:912][863]LogLevel: ActivateLevel /Game/ThirdPersonBP/Maps/UEDPIE_0_LS_Blue 1 1 0
+[2017.05.28-22.52.16:931][305]LogLevel: ActivateLevel /Game/ThirdPersonBP/Maps/UEDPIE_0_LS_Blue 0 0 0
+[2017.05.28-22.52.19:701][636]LogLevel: ActivateLevel /Game/ThirdPersonBP/Maps/UEDPIE_0_LS_Blue 1 1 0
+[2017.05.28-22.52.48:147][ 49]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.05.28-22.52.48:147][ 49]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/LS_Green.LS_Green:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/LS_Green.LS_Green:PersistentLevel.LS_Green' with GeneratedClass '/Game/ThirdPersonBP/Maps/LS_Green.LS_Green_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/LS_Green.LS_Green:PersistentLevel.LS_Green'
+[2017.05.28-22.52.48:147][ 49]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/LS_Blue.LS_Blue:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/LS_Blue.LS_Blue:PersistentLevel.LS_Blue' with GeneratedClass '/Game/ThirdPersonBP/Maps/LS_Blue.LS_Blue_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/LS_Blue.LS_Blue:PersistentLevel.LS_Blue'
+[2017.05.28-22.52.48:186][ 49]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.05.28-22.52.48:186][ 49]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/LS_Green.LS_Green:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/LS_Green.LS_Green:PersistentLevel.LS_Green' with GeneratedClass '/Game/ThirdPersonBP/Maps/LS_Green.LS_Green_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/LS_Green.LS_Green:PersistentLevel.LS_Green'
+[2017.05.28-22.52.48:186][ 49]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/LS_Blue.LS_Blue:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/LS_Blue.LS_Blue:PersistentLevel.LS_Blue' with GeneratedClass '/Game/ThirdPersonBP/Maps/LS_Blue.LS_Blue_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/LS_Blue.LS_Blue:PersistentLevel.LS_Blue'
+[2017.05.28-22.55.29:207][116]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2017.05.28-22.57.20:575][192]LogSlate: Took 0.003417 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2017.05.28-22.58.51:548][541]LogEditorViewport: Clicking on Actor (LMB): Actor (Actor)
+[2017.05.28-22.59.03:316][697]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Maps/LS_Blue" FILE="D:/UnrealProject/StudyLevelStreaming/Content/ThirdPersonBP/Maps/LS_Blue.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.05.28-22.59.03:337][697]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: LS_Blue, Actor: /Game/ThirdPersonBP/Maps/LS_Blue.LS_Blue:PersistentLevel.LS_Blue_C_0
+[2017.05.28-22.59.03:420][697]LogSavePackage: Save=88.84ms
+[2017.05.28-22.59.03:420][697]LogSavePackage: Moving 'D:/UnrealProject/StudyLevelStreaming/Saved/LS_Blue5B86D33546B67C192843008EC30FD8AC.tmp' to 'D:/UnrealProject/StudyLevelStreaming/Content/ThirdPersonBP/Maps/LS_Blue.umap'
+[2017.05.28-22.59.03:421][697]LogSavePackage:Display: Finished SavePackage D:/UnrealProject/StudyLevelStreaming/Content/ThirdPersonBP/Maps/LS_Blue.umap
+[2017.05.28-22.59.03:422][697]LogFileHelpers: Saving map 'LS_Blue' took 0.144
+[2017.05.28-23.04.01:381][ 35]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2017.05.28-23.04.01:401][ 35]LogBlueprint:Error: [Compiler TestActorA] Error The current value of the ' Target Array ' pin is invalid: Array inputs (like 'Target Array') must have an input wired into them (try connecting a MakeArray node).
+[2017.05.28-23.04.01:413][ 35]LogBlueprint:Error: [Compiler PersistentLevel.LS_Blue] Error The current value of the ' Target Array ' pin is invalid: Array inputs (like 'Target Array') must have an input wired into them (try connecting a MakeArray node).
+[2017.05.28-23.04.01:418][ 35]LogBlueprint:Error: [Compiler PersistentLevel.ThirdPersonExampleMap] Error The current value of the ' Target Array ' pin is invalid: Array inputs (like 'Target Array') must have an input wired into them (try connecting a MakeArray node).
+[2017.05.28-23.04.02:460][ 95]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter" FILE="D:/UnrealProject/StudyLevelStreaming/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset" SILENT=true
+[2017.05.28-23.04.02:526][ 95]LogSavePackage: Save=61.56ms
+[2017.05.28-23.04.02:526][ 95]LogSavePackage: Moving 'D:/UnrealProject/StudyLevelStreaming/Saved/ThirdPersonCharacter3172DD4545279B5DBBF13F9ABF9A3400.tmp' to 'D:/UnrealProject/StudyLevelStreaming/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2017.05.28-23.04.02:527][ 95]LogSavePackage:Display: Finished SavePackage D:/UnrealProject/StudyLevelStreaming/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2017.05.28-23.04.26:809][970]BlueprintLog: New page: Compile TestActorA
+[2017.05.28-23.04.27:420][ 31]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/TestActorA" FILE="D:/UnrealProject/StudyLevelStreaming/Content/ThirdPersonBP/Blueprints/TestActorA.uasset" SILENT=true
+[2017.05.28-23.04.27:445][ 31]LogSavePackage: Save=19.44ms
+[2017.05.28-23.04.27:445][ 31]LogSavePackage: Moving 'D:/UnrealProject/StudyLevelStreaming/Saved/TestActorA00FAB70847798390BFA066872ECFA375.tmp' to 'D:/UnrealProject/StudyLevelStreaming/Content/ThirdPersonBP/Blueprints/TestActorA.uasset'
+[2017.05.28-23.04.27:445][ 31]LogSavePackage:Display: Finished SavePackage D:/UnrealProject/StudyLevelStreaming/Content/ThirdPersonBP/Blueprints/TestActorA.uasset
+[2017.05.28-23.04.28:695][174]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.05.28-23.04.40:349][546]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/TestActorAB.SKEL_TestActorAB_C' ref from Metadata '/Game/ThirdPersonBP/Blueprints/TestActorA1.PackageMetaData'
+[2017.05.28-23.04.40:349][546]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/TestActorAB.TestActorAB_C' ref from Metadata '/Game/ThirdPersonBP/Blueprints/TestActorA1.PackageMetaData'
+[2017.05.28-23.04.40:363][546]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/TestActorAB" FILE="D:/UnrealProject/StudyLevelStreaming/Content/ThirdPersonBP/Blueprints/TestActorAB.uasset" SILENT=true
+[2017.05.28-23.04.40:380][546]LogSavePackage: Save=15.73ms
+[2017.05.28-23.04.40:380][546]LogSavePackage: Moving 'D:/UnrealProject/StudyLevelStreaming/Saved/TestActorABE071278A4C5D8EC19E49149B238FD9EA.tmp' to 'D:/UnrealProject/StudyLevelStreaming/Content/ThirdPersonBP/Blueprints/TestActorAB.uasset'
+[2017.05.28-23.04.40:381][546]LogSavePackage:Display: Finished SavePackage D:/UnrealProject/StudyLevelStreaming/Content/ThirdPersonBP/Blueprints/TestActorAB.uasset
+[2017.05.28-23.04.49:785][660]LogBlueprint:Error: [Compiler PersistentLevel.ThirdPersonExampleMap] Error The current value of the ' Target Array ' pin is invalid: Array inputs (like 'Target Array') must have an input wired into them (try connecting a MakeArray node).
+[2017.05.28-23.04.49:790][660]LogBlueprint:Error: [Compiler PersistentLevel.LS_Blue] Error The current value of the ' Target Array ' pin is invalid: Array inputs (like 'Target Array') must have an input wired into them (try connecting a MakeArray node).
+[2017.05.28-23.04.50:039][660]LogBlueprint:Error: [Compiler PersistentLevel.ThirdPersonExampleMap] Error The current value of the ' Target Array ' pin is invalid: Array inputs (like 'Target Array') must have an input wired into them (try connecting a MakeArray node).
+[2017.05.28-23.04.50:147][660]LogBlueprint:Warning: [Compiler PersistentLevel.ThirdPersonExampleMap] Warning [2600.04] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 0 Warning(s) [in 111 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2017.05.28-23.04.50:147][660]LogBlueprint:Warning: [Compiler PersistentLevel.ThirdPersonExampleMap] Warning [2600.04] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 1 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2017.05.28-23.04.50:147][660]LogBlueprint:Warning: [Compiler PersistentLevel.ThirdPersonExampleMap] Warning [2600.04] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2017.05.28-23.04.50:147][660]LogBlueprint:Warning: [Compiler PersistentLevel.ThirdPersonExampleMap] Warning [2600.04] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 3 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2017.05.28-23.04.50:157][660]LogBlueprint:Warning: [Compiler PersistentLevel.ThirdPersonExampleMap] Warning [2600.05] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 4 Warning(s) [in 10 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2017.05.28-23.04.50:157][660]LogBlueprint:Warning: [Compiler PersistentLevel.ThirdPersonExampleMap] Warning [2600.05] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 5 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2017.05.28-23.04.50:157][660]LogBlueprint:Warning: [Compiler PersistentLevel.ThirdPersonExampleMap] Warning [2600.05] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 6 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2017.05.28-23.04.50:162][660]LogBlueprint:Error: [Compiler PersistentLevel.LS_Blue] Error The current value of the ' Target Array ' pin is invalid: Array inputs (like 'Target Array') must have an input wired into them (try connecting a MakeArray node).
+[2017.05.28-23.04.50:271][660]LogBlueprint:Warning: [Compiler PersistentLevel.LS_Blue] Warning [2600.16] Compile of PersistentLevel.LS_Blue failed. 1 Fatal Issue(s) 0 Warning(s) [in 110 ms] (/Game/ThirdPersonBP/Maps/LS_Blue.LS_Blue:PersistentLevel.LS_Blue)
+[2017.05.28-23.04.50:271][660]LogBlueprint:Warning: [Compiler PersistentLevel.LS_Blue] Warning [2600.16] Compile of PersistentLevel.LS_Blue failed. 1 Fatal Issue(s) 1 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/LS_Blue.LS_Blue:PersistentLevel.LS_Blue)
+[2017.05.28-23.04.50:271][660]LogBlueprint:Warning: [Compiler PersistentLevel.LS_Blue] Warning [2600.16] Compile of PersistentLevel.LS_Blue failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/LS_Blue.LS_Blue:PersistentLevel.LS_Blue)
+[2017.05.28-23.04.50:271][660]LogBlueprint:Warning: [Compiler PersistentLevel.LS_Blue] Warning [2600.16] Compile of PersistentLevel.LS_Blue failed. 1 Fatal Issue(s) 3 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/LS_Blue.LS_Blue:PersistentLevel.LS_Blue)
+[2017.05.28-23.04.50:281][660]LogBlueprint:Warning: [Compiler PersistentLevel.LS_Blue] Warning [2600.17] Compile of PersistentLevel.LS_Blue failed. 1 Fatal Issue(s) 4 Warning(s) [in 10 ms] (/Game/ThirdPersonBP/Maps/LS_Blue.LS_Blue:PersistentLevel.LS_Blue)
+[2017.05.28-23.04.50:281][660]LogBlueprint:Warning: [Compiler PersistentLevel.LS_Blue] Warning [2600.17] Compile of PersistentLevel.LS_Blue failed. 1 Fatal Issue(s) 5 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/LS_Blue.LS_Blue:PersistentLevel.LS_Blue)
+[2017.05.28-23.04.50:281][660]LogBlueprint:Warning: [Compiler PersistentLevel.LS_Blue] Warning [2600.17] Compile of PersistentLevel.LS_Blue failed. 1 Fatal Issue(s) 6 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/LS_Blue.LS_Blue:PersistentLevel.LS_Blue)
+[2017.05.28-23.04.50:351][660]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/TestActorG.TestActorG:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/ThirdPersonBP/Blueprints/TestActorA.PackageMetaData'
+[2017.05.28-23.04.50:351][660]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/TestActorG.TestActorG_C' ref from Metadata '/Game/ThirdPersonBP/Blueprints/TestActorA.PackageMetaData'
+[2017.05.28-23.04.50:351][660]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/TestActorG.TestActorG:EventGraph.K2Node_Event_0' ref from Metadata '/Game/ThirdPersonBP/Blueprints/TestActorA.PackageMetaData'
+[2017.05.28-23.04.50:351][660]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/TestActorG.TestActorG:EventGraph.K2Node_Event_1' ref from Metadata '/Game/ThirdPersonBP/Blueprints/TestActorA.PackageMetaData'
+[2017.05.28-23.04.50:351][660]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/TestActorG.TestActorG:EventGraph.K2Node_Event_2' ref from Metadata '/Game/ThirdPersonBP/Blueprints/TestActorA.PackageMetaData'
+[2017.05.28-23.04.50:351][660]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/TestActorG.SKEL_TestActorG_C' ref from Metadata '/Game/ThirdPersonBP/Blueprints/TestActorA.PackageMetaData'
+[2017.05.28-23.04.50:378][660]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/TestActorG" FILE="D:/UnrealProject/StudyLevelStreaming/Content/ThirdPersonBP/Blueprints/TestActorG.uasset" SILENT=true
+[2017.05.28-23.04.50:398][660]LogSavePackage: Save=19.76ms
+[2017.05.28-23.04.50:398][660]LogSavePackage: Moving 'D:/UnrealProject/StudyLevelStreaming/Saved/TestActorGC35688214411E4AFE4E2ADB52996312B.tmp' to 'D:/UnrealProject/StudyLevelStreaming/Content/ThirdPersonBP/Blueprints/TestActorG.uasset'
+[2017.05.28-23.04.50:399][660]LogSavePackage:Display: Finished SavePackage D:/UnrealProject/StudyLevelStreaming/Content/ThirdPersonBP/Blueprints/TestActorG.uasset
+[2017.05.28-23.04.50:401][660]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/TestActorA" FILE="D:/UnrealProject/StudyLevelStreaming/Content/ThirdPersonBP/Blueprints/TestActorA.uasset" SILENT=true
+[2017.05.28-23.04.50:405][660]LogSavePackage: Save=2.54ms
+[2017.05.28-23.04.50:405][660]LogSavePackage: Moving 'D:/UnrealProject/StudyLevelStreaming/Saved/TestActorAAD3C26E545CB8CC1763494B098A9EC67.tmp' to 'D:/UnrealProject/StudyLevelStreaming/Content/ThirdPersonBP/Blueprints/TestActorA.uasset'
+[2017.05.28-23.04.50:406][660]LogSavePackage:Display: Finished SavePackage D:/UnrealProject/StudyLevelStreaming/Content/ThirdPersonBP/Blueprints/TestActorA.uasset
+[2017.05.28-23.04.54:978][197]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/TestActorB.TestActorB_C' ref from Metadata '/Game/ThirdPersonBP/Blueprints/TestActorAB.PackageMetaData'
+[2017.05.28-23.04.54:978][197]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/TestActorB.SKEL_TestActorB_C' ref from Metadata '/Game/ThirdPersonBP/Blueprints/TestActorAB.PackageMetaData'
+[2017.05.28-23.04.54:993][197]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/TestActorB" FILE="D:/UnrealProject/StudyLevelStreaming/Content/ThirdPersonBP/Blueprints/TestActorB.uasset" SILENT=true
+[2017.05.28-23.04.55:018][197]LogSavePackage: Save=24.15ms
+[2017.05.28-23.04.55:018][197]LogSavePackage: Moving 'D:/UnrealProject/StudyLevelStreaming/Saved/TestActorB9D66F2D842767687B7C6EBA05B4DA654.tmp' to 'D:/UnrealProject/StudyLevelStreaming/Content/ThirdPersonBP/Blueprints/TestActorB.uasset'
+[2017.05.28-23.04.55:018][197]LogSavePackage:Display: Finished SavePackage D:/UnrealProject/StudyLevelStreaming/Content/ThirdPersonBP/Blueprints/TestActorB.uasset
+[2017.05.28-23.05.06:968][578]LogRenderer: Reallocating scene render targets to support 1248x744 NumSamples 1 (Frame:1).
+[2017.05.28-23.05.26:329][320]BlueprintLog: New page: Compile TestActorB
+[2017.05.28-23.05.28:422][551]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/TestActorB" FILE="D:/UnrealProject/StudyLevelStreaming/Content/ThirdPersonBP/Blueprints/TestActorB.uasset" SILENT=true
+[2017.05.28-23.05.28:449][551]LogSavePackage: Save=21.31ms
+[2017.05.28-23.05.28:449][551]LogSavePackage: Moving 'D:/UnrealProject/StudyLevelStreaming/Saved/TestActorB582216C444557A5139D938BC2C9D6735.tmp' to 'D:/UnrealProject/StudyLevelStreaming/Content/ThirdPersonBP/Blueprints/TestActorB.uasset'
+[2017.05.28-23.05.28:449][551]LogSavePackage:Display: Finished SavePackage D:/UnrealProject/StudyLevelStreaming/Content/ThirdPersonBP/Blueprints/TestActorB.uasset
+[2017.05.28-23.05.47:468][772]BlueprintLog: New page: Compile LS_Green
+[2017.05.28-23.05.48:296][855]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Maps/LS_Green" FILE="D:/UnrealProject/StudyLevelStreaming/Content/ThirdPersonBP/Maps/LS_Green.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.05.28-23.05.48:315][855]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: LS_Green, Actor: /Game/ThirdPersonBP/Maps/LS_Green.LS_Green:PersistentLevel.LS_Green_C_0
+[2017.05.28-23.05.48:414][855]LogSavePackage: Save=102.42ms
+[2017.05.28-23.05.48:414][855]LogSavePackage: Moving 'D:/UnrealProject/StudyLevelStreaming/Saved/LS_GreenE4760D8D495E99FA115D4BB5A842000A.tmp' to 'D:/UnrealProject/StudyLevelStreaming/Content/ThirdPersonBP/Maps/LS_Green.umap'
+[2017.05.28-23.05.48:414][855]LogSavePackage:Display: Finished SavePackage D:/UnrealProject/StudyLevelStreaming/Content/ThirdPersonBP/Maps/LS_Green.umap
+[2017.05.28-23.05.48:415][855]LogFileHelpers: Saving map 'LS_Green' took 0.157
+[2017.05.28-23.06.02:132][470]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.05.28-23.06.09:458][339]BlueprintLog: New page: Compile LS_Blue
+[2017.05.28-23.06.09:462][339]LogBlueprint:Error: [Compiler PersistentLevel.LS_Blue] Error This blueprint (self) is not a TestActorG_C, therefore ' Target ' must have a connection.
+[2017.05.28-23.06.09:462][339]LogBlueprint:Error: [Compiler PersistentLevel.LS_Blue] Error Variable node  Get Cone  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2017.05.28-23.06.09:587][339]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a TestActorG_C, therefore ' Target ' must have a connection.
+[2017.05.28-23.06.09:587][339]BlueprintEditorCompileResults:Error: Error Variable node  Get Cone  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2017.05.28-23.06.09:587][339]LogBlueprint:Warning: [Compiler PersistentLevel.LS_Blue] Warning [2679.48] Compile of PersistentLevel.LS_Blue failed. 2 Fatal Issue(s) 0 Warning(s) [in 129 ms] (/Game/ThirdPersonBP/Maps/LS_Blue.LS_Blue:PersistentLevel.LS_Blue)
+[2017.05.28-23.06.10:878][488]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Maps/LS_Blue" FILE="D:/UnrealProject/StudyLevelStreaming/Content/ThirdPersonBP/Maps/LS_Blue.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.05.28-23.06.10:897][488]LogBlueprint:Error: [Compiler PersistentLevel.LS_Blue] Error This blueprint (self) is not a TestActorG_C, therefore ' Target ' must have a connection.
+[2017.05.28-23.06.10:897][488]LogBlueprint:Error: [Compiler PersistentLevel.LS_Blue] Error Variable node  Get Cone  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2017.05.28-23.06.10:897][488]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: LS_Blue, Actor: /Game/ThirdPersonBP/Maps/LS_Blue.LS_Blue:PersistentLevel.REINST_LS_Blue_C_0
+[2017.05.28-23.06.10:953][488]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: LS_Blue, Actor: /Game/ThirdPersonBP/Maps/LS_Blue.LS_Blue:PersistentLevel.REINST_LS_Blue_C_1
+[2017.05.28-23.06.11:009][488]LogBlueprint:Warning: [Compiler PersistentLevel.LS_Blue] Warning [2680.90] Compile of PersistentLevel.LS_Blue failed. 2 Fatal Issue(s) 0 Warning(s) [in 113 ms] (/Game/ThirdPersonBP/Maps/LS_Blue.LS_Blue:PersistentLevel.LS_Blue)
+[2017.05.28-23.06.11:009][488]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: LS_Blue, Actor: /Game/ThirdPersonBP/Maps/LS_Blue.LS_Blue:PersistentLevel.LS_Blue_C_0
+[2017.05.28-23.06.11:009][488]LogBlueprint:Warning: [Compiler PersistentLevel.LS_Blue] Warning [2680.90] Compile of PersistentLevel.LS_Blue failed. 2 Fatal Issue(s) 1 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/LS_Blue.LS_Blue:PersistentLevel.LS_Blue)
+[2017.05.28-23.06.11:009][488]LogBlueprint:Warning: [Compiler PersistentLevel.LS_Blue] Warning [2680.90] Compile of PersistentLevel.LS_Blue failed. 2 Fatal Issue(s) 2 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/LS_Blue.LS_Blue:PersistentLevel.LS_Blue)
+[2017.05.28-23.06.11:009][488]LogBlueprint:Warning: [Compiler PersistentLevel.LS_Blue] Warning [2680.90] Compile of PersistentLevel.LS_Blue failed. 2 Fatal Issue(s) 3 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/LS_Blue.LS_Blue:PersistentLevel.LS_Blue)
+[2017.05.28-23.06.11:010][488]LogBlueprint:Warning: [Compiler PersistentLevel.LS_Blue] Warning [2680.90] Compile of PersistentLevel.LS_Blue failed. 2 Fatal Issue(s) 4 Warning(s) [in 1 ms] (/Game/ThirdPersonBP/Maps/LS_Blue.LS_Blue:PersistentLevel.LS_Blue)
+[2017.05.28-23.06.11:010][488]LogBlueprint:Warning: [Compiler PersistentLevel.LS_Blue] Warning [2680.90] Compile of PersistentLevel.LS_Blue failed. 2 Fatal Issue(s) 5 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/LS_Blue.LS_Blue:PersistentLevel.LS_Blue)
+[2017.05.28-23.06.11:062][488]LogSavePackage: Save=168.82ms
+[2017.05.28-23.06.11:062][488]LogSavePackage: Moving 'D:/UnrealProject/StudyLevelStreaming/Saved/LS_Blue8D3B58DF4AD160E0D9075C96111F8066.tmp' to 'D:/UnrealProject/StudyLevelStreaming/Content/ThirdPersonBP/Maps/LS_Blue.umap'
+[2017.05.28-23.06.11:064][488]LogSavePackage:Display: Finished SavePackage D:/UnrealProject/StudyLevelStreaming/Content/ThirdPersonBP/Maps/LS_Blue.umap
+[2017.05.28-23.06.11:065][488]LogFileHelpers: Saving map 'LS_Blue' took 0.223
+[2017.05.28-23.06.33:283][144]BlueprintLog: New page: Compile LS_Blue
+[2017.05.28-23.06.33:860][198]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Maps/LS_Blue" FILE="D:/UnrealProject/StudyLevelStreaming/Content/ThirdPersonBP/Maps/LS_Blue.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.05.28-23.06.33:877][198]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: LS_Blue, Actor: /Game/ThirdPersonBP/Maps/LS_Blue.LS_Blue:PersistentLevel.LS_Blue_C_2
+[2017.05.28-23.06.33:974][198]LogSavePackage: Save=101.12ms
+[2017.05.28-23.06.33:974][198]LogSavePackage: Moving 'D:/UnrealProject/StudyLevelStreaming/Saved/LS_Blue6522D0EA41D4BEE0D270FA9BE76EF0C4.tmp' to 'D:/UnrealProject/StudyLevelStreaming/Content/ThirdPersonBP/Maps/LS_Blue.umap'
+[2017.05.28-23.06.33:975][198]LogSavePackage:Display: Finished SavePackage D:/UnrealProject/StudyLevelStreaming/Content/ThirdPersonBP/Maps/LS_Blue.umap
+[2017.05.28-23.06.33:976][198]LogFileHelpers: Saving map 'LS_Blue' took 0.152
+[2017.05.28-23.08.04:515][718]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2017.05.28-23.08.04:538][718]LogBlueprint:Error: [Compiler TestActorG] Error The current value of the ' Target Array ' pin is invalid: Array inputs (like 'Target Array') must have an input wired into them (try connecting a MakeArray node).
+[2017.05.28-23.08.05:485][771]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter" FILE="D:/UnrealProject/StudyLevelStreaming/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset" SILENT=true
+[2017.05.28-23.08.05:535][771]LogSavePackage: Save=49.12ms
+[2017.05.28-23.08.05:535][771]LogSavePackage: Moving 'D:/UnrealProject/StudyLevelStreaming/Saved/ThirdPersonCharacter206906114C572C18A23566A0434E9D6D.tmp' to 'D:/UnrealProject/StudyLevelStreaming/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2017.05.28-23.08.05:536][771]LogSavePackage:Display: Finished SavePackage D:/UnrealProject/StudyLevelStreaming/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2017.05.28-23.08.51:865][253]BlueprintLog: New page: Compile TestActorG
+[2017.05.28-23.08.52:440][310]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/TestActorG" FILE="D:/UnrealProject/StudyLevelStreaming/Content/ThirdPersonBP/Blueprints/TestActorG.uasset" SILENT=true
+[2017.05.28-23.08.52:558][310]LogSavePackage: Save=113.11ms
+[2017.05.28-23.08.52:558][310]LogSavePackage: Moving 'D:/UnrealProject/StudyLevelStreaming/Saved/TestActorG59CEBA004AA1311067C5B198B63E885B.tmp' to 'D:/UnrealProject/StudyLevelStreaming/Content/ThirdPersonBP/Blueprints/TestActorG.uasset'
+[2017.05.28-23.08.52:559][310]LogSavePackage:Display: Finished SavePackage D:/UnrealProject/StudyLevelStreaming/Content/ThirdPersonBP/Blueprints/TestActorG.uasset
+[2017.05.28-23.08.54:988][574]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.05.28-23.09.03:990][560]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.05.28-23.09.04:040][560]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.050 s
+[2017.05.28-23.09.04:040][560]LogOutputDevice:Error: === Handled ensure: ===
+[2017.05.28-23.09.04:040][560]LogOutputDevice:Error: 
+[2017.05.28-23.09.04:040][560]LogOutputDevice:Error: Ensure condition failed: false [File:D:\Build\++UE4+Release-4.16+Compile\Sync\Engine\Source\Editor\UnrealEd\Private\Kismet2\KismetDebugUtilities.cpp] [Line: 1037]
+[2017.05.28-23.09.04:040][560]LogOutputDevice:Error: Error: Invalid (but non-null) property associated with pin; cannot get variable value
+[2017.05.28-23.09.04:040][560]LogOutputDevice:Error: Stack: 
+[2017.05.28-23.09.04:040][560]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000A0D532B6
+[2017.05.28-23.09.04:040][560]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000A0AFDE02
+[2017.05.28-23.09.04:040][560]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000A0B14376
+[2017.05.28-23.09.04:040][560]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x000000008F3E4BD6
+[2017.05.28-23.09.04:040][560]LogOutputDevice:Error: UE4Editor-BlueprintGraph.dll!0x000000008CA0C6AB
+[2017.05.28-23.09.04:040][560]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x000000008B80007A
+[2017.05.28-23.09.04:040][560]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x000000008B6A73CC
+[2017.05.28-23.09.04:040][560]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x000000008B6AA7F9
+[2017.05.28-23.09.04:040][560]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x000000008B7C5C79
+[2017.05.28-23.09.04:040][560]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000009ADED585
+[2017.05.28-23.09.04:040][560]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000009ADF44D1
+[2017.05.28-23.09.04:040][560]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000009B012C63
+[2017.05.28-23.09.04:040][560]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000009AE4EB32
+[2017.05.28-23.09.04:040][560]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000009AE26BDE
+[2017.05.28-23.09.04:040][560]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000009AE1763C
+[2017.05.28-23.09.04:040][560]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000A0D466B3
+[2017.05.28-23.09.04:040][560]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000A0D308A1
+[2017.05.28-23.09.04:040][560]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000A0D4849C
+[2017.05.28-23.09.04:040][560]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000A0D2CBD2
+[2017.05.28-23.09.04:040][560]LogOutputDevice:Error: USER32.dll!0x00000000CEC6BC50
+[2017.05.28-23.09.04:040][560]LogOutputDevice:Error: USER32.dll!0x00000000CEC6B5CF
+[2017.05.28-23.09.04:040][560]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000A0D48DA6
+[2017.05.28-23.09.04:040][560]LogOutputDevice:Error: UE4Editor.exe!0x00000000FDD9DB58
+[2017.05.28-23.09.04:040][560]LogOutputDevice:Error: UE4Editor.exe!0x00000000FDD8F0E0
+[2017.05.28-23.09.04:040][560]LogOutputDevice:Error: UE4Editor.exe!0x00000000FDD8F15A
+[2017.05.28-23.09.04:040][560]LogOutputDevice:Error: UE4Editor.exe!0x00000000FDDA0DB9
+[2017.05.28-23.09.04:040][560]LogOutputDevice:Error: UE4Editor.exe!0x00000000FDDA2696
+[2017.05.28-23.09.04:040][560]LogOutputDevice:Error: KERNEL32.DLL!0x00000000CCC12774
+[2017.05.28-23.09.04:040][560]LogOutputDevice:Error: ntdll.dll!0x00000000CF6B0D61
+[2017.05.28-23.09.04:040][560]LogOutputDevice:Error: 
+[2017.05.28-23.09.04:043][560]LogStats:                SubmitErrorReport -  0.000 s
